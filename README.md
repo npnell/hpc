@@ -1,6 +1,6 @@
 # High Performance Computing
 
-I performed some experiments for testing various software acceleration techniques. It involves utilizing any single or a hybrid of the following methods:
+I performed some experiments for testing various software acceleration techniques. These programs involve utilizing any one or a hybrid of the following methods:
 
 - Algorithmic Optimization
 - CPU acceleration (Multithreading, SIMD)
