@@ -2,7 +2,7 @@
 
 Quicksort on a distributed cluster.
 
-Manager process divides the input array into several subarrays and a individual node (process) sorts each subarray, then finally all subarrays are merged using recursive tree method.
+Manager process assigns a subarray (of the whole input array) to each individual node (process), which is then sorted independently, then finally all subarrays are merged using the recursive tree method.
 
 ## Running
 MPI library should be installed (preferably MPICH).
