@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <string.h>
 #include <unistd.h>
-#include <math.h>
 #include <mpi.h>
 
 void swap(int *A, int i, int j)

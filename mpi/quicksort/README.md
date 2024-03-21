@@ -7,6 +7,6 @@ Manager process assigns a subarray (of the whole input array) to each individual
 ## Running
 MPI library should be installed (preferably MPICH).
 ```
-mpicc quicksort.c -o quicksort -lm
+mpicc quicksort.c -o quicksort
 mpiexec -n 5 ./quicksort
 ```

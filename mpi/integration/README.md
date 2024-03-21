@@ -7,6 +7,6 @@ Each individual node calculates the subarea for a section of the interval, then 
 ## Running
 MPI library should be installed (preferably MPICH).
 ```
-mpicc quicksort.c -o quicksort -lm
-mpiexec -n 5 ./quicksort
+mpicc integration.c -o integration -lm
+mpiexec -n 8 ./integration
 ```
